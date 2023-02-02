@@ -1,0 +1,145 @@
+body {
+    background-color: lightblue;
+}
+h1 {
+    font-family: verdana;
+    font-weight: 20px;
+    color: gray;
+    text-align: center;
+}
+
+.home {
+    color: gray;
+    margin-right: 60px;
+    height: 100px;
+    width: 100px;
+    font-family: verdana;
+    font-weight: 15px;
+    border-radius: 30px;
+}
+.box {
+    background-color: white;
+    height: 130px;
+    width:1340px;
+    text-align:center;
+    padding-top:25px;
+    border:dashed 5px black;
+}
+
+.bottom {
+    background-color:gray;
+    padding: 8px;
+}
+
+.image {
+    margin: 0px;
+    padding:0px;
+    position: absolute;
+    bottom: 0;
+}
+
+.lists {
+    font-family: verdana;
+    color: gray;
+    font-size: 30px;
+
+}
+
+.wiki {
+    font-family: verdana;
+    font-size: 25px;
+    color:gray;
+
+}
+
+.footercreature {
+    color:darkgray;
+    padding: 10px;
+}
+
+.imageanimal {
+   margin-left: 30px;
+   margin-right: 50px;
+}
+.listbox {
+    color: rgb(255,255,255, 0.2);
+}
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+.triangle {
+  position: relative;
+  background: #2c3e50;
+  height: 20vh;
+}
+.triangle::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 101px 101px 0 101px;
+  border-color: #2c3e50 transparent transparent transparent;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
+}
+.homebutton {
+    color: white;
+    font-family: verdana;
+    background-color: darkgray;
+    border-radius: 10px;
+    border: black 2px dashed;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+}
+.header {
+    background-color: silver;
+    border: solid darkgray 3px;
+    width: 495px;
+}
+.contentmiddle {
+    opacity: 0.5;
+    border-radius: 10px;
+    background-color: white;
+}
+.bottomfoot {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+---------------------------
+body {
+  background: #001224;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: Verdana;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, right top, from(#90f3b3), color-stop(#90e9f3), color-stop(#909ff3), color-stop(#cc90f3), color-stop(#f390d1), color-stop(#f39a90), color-stop(#f3e590), to(#b8f390)) repeat scroll 0% 0%/200% 200%;
+  background: rgba(0, 0, 0, 0) linear-gradient(90deg, #90f3b3, #90e9f3, #909ff3, #cc90f3, #f390d1, #f39a90, #f3e590, #b8f390) repeat scroll 0% 0%/200% 200%;
+      background-clip: border-box;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+a:hover {
+  -webkit-animation: GradientAnimation 2s ease infinite;
+  animation: GradientAnimation 2s ease infinite;
+}
+
+@keyframes GradientAnimation {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
